@@ -85,7 +85,7 @@ async function onRegister(e) {
       },
     };
   
-    const response = await fetch('http://localhost:3000/auths/register', options);
+    const response = await fetch(`${process.env.API_BASE_URL}/auths/register`, options);
   
     if (!response.ok){
       if(response.status === 409){

@@ -81,7 +81,7 @@ async function onLogin(e) {
       },
     };
   
-    const response = await fetch('http://localhost:3000/auths/login', options);
+    const response = await fetch(`${process.env.API_BASE_URL}/auths/login`, options);
   
     if (!response.ok) {
       if(response.status === 401){

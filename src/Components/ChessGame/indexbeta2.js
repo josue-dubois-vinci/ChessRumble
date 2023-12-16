@@ -1156,7 +1156,7 @@ class GameScene extends Phaser.Scene {
 
     // Arrêter le jeu
     this.scene.pause(); // ou this.scene.stop();
-    await fetch('http://localhost:3000/games', {
+    await fetch(`${process.env.API_BASE_URL}/games`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
