@@ -1,0 +1,54 @@
+
+.chessImage{
+  width: 60%;
+  height: 60%;
+  
+  
+}
+.bg-custom-color {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-btn {
+  width: 300px;
+  background-color : #2c3e50 !important;
+  border-color: #2c3e50 !important ;
+  color: black ;
+}
+
+.btn-primary { 
+  color: #ffffff;
+}
+
+
+
+/* Style de base pour la custom navbar */
+.custom-navbar {
+  background-color: #2c3e50; /* Couleur de fond sombre */
+  padding: 10px; /* Marge intérieure pour l'espace autour du contenu */
+  text-align: center; /* Alignement central du texte */
+}
+
+/* Style des liens dans la custom navbar */
+.custom-navbar a {
+  color: #ecf0f1; /* Couleur du texte claire */
+  text-decoration: none; /* Pas de soulignement sur les liens */
+  padding: 10px 20px; /* Marge intérieure pour l'espace autour du texte */
+  margin: 0 5px; /* Marge à gauche et à droite des liens pour l'espace */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s ease; /* Transition douce de la couleur de fond */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style des liens au survol */
+.custom-navbar a:hover {
+  background-color: #34495e; /* Couleur de fond sombre au survol */
+}
+
+
+
+
